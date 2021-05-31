@@ -199,3 +199,9 @@ CREATE TABLE IF NOT EXISTS `proxy` (
 	`username` VARCHAR(200),
 	`password` VARCHAR(200),
 	`created_date` DATETIME NOT NULL); 
+
+
+INSERT INTO `proxy`(`proxy_name`, `proxy_id`,`proxy_port`,`username`,`password`,`created_date`) values("SSL Proxy","127.561.68.197",2564,"shamith123","13551dwefwe",now());
+INSERT INTO `proxy`(`proxy_name`, `proxy_id`,`proxy_port`,`username`,`password`,`created_date`) values("Lime Proxy","196.125.6.8",9564,"shamith123","13dfefwefwe",now());
+INSERT INTO `proxy`(`proxy_name`, `proxy_id`,`proxy_port`,`username`,`password`,`created_date`) values("Lime Proxy","176.15.6.140",25654,"shamith123","13dfefwefwe",now());
+INSERT INTO `proxy`(`proxy_name`, `proxy_id`,`proxy_port`,`username`,`password`,`created_date`) values("Lime Proxy","196.15.6.18",5694,"shamith123","13dfefwefwe",now());
