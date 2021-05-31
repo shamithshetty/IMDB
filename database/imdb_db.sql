@@ -91,6 +91,7 @@ CREATE TABLE IF NOT EXISTS `movie_details`(
 	`movie_id` INT UNSIGNED,
 	`movie_category`  VARCHAR(100),
 	`language` VARCHAR(100),
+	`movie_details` VARCHAR(1000) default NULL,
 	`country` VARCHAR(200) ,
 	`certificate` VARCHAR(100),
 	`tag_lines` VARCHAR(500),
